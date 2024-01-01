@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet";
 import Banner from "./Banner/Banner";
 import Category from "./Category/Category";
 import PopularMenu from "./PopularMenu/PopularMenu";
+import CallUs from "./CallUs/CallUs";
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
             <Banner></Banner>
             <Category></Category>
             <PopularMenu></PopularMenu>
+            <CallUs></CallUs>
         </div>
     );
 };
