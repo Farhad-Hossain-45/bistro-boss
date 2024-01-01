@@ -1,0 +1,9 @@
+.bg_image{
+    background: url('../../../assets/home/Rectangle 13.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 500px; */
+    /* width: 1900px; */
+    background-attachment: fixed;
+    /* background-blend-mode: darken; */
+}
