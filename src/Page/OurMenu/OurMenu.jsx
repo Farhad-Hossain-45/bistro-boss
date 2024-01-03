@@ -1,4 +1,6 @@
 import { Helmet } from "react-helmet";
+import Cover from "../Home/Share/Cover/Cover";
+import menuImage from "../../assets/menu/banner3.jpg"
 
 
 const OurMenu = () => {
@@ -10,7 +12,7 @@ const OurMenu = () => {
                     {/* <link rel="canonical" href="/src/assets/menu_1046849.png" /> */}
                 </Helmet>
             </div>
-            <h2>this is our menu page</h2>
+            <Cover image={menuImage} title={'OUR MENU'} description={'Would you like to try a dish?'}></Cover>
         </div>
     );
 };
