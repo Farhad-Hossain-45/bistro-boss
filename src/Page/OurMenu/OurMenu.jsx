@@ -4,6 +4,7 @@ import menuImage from "../../assets/menu/banner3.jpg"
 import TodayOffer from "./TodayOffer/TodayOffer";
 import Dessert from "./Dessert/Dessert";
 import Pizza from "./Pizza/Pizza";
+import Salad from "./Salad/Salad";
 
 
 const OurMenu = () => {
@@ -19,6 +20,8 @@ const OurMenu = () => {
             <TodayOffer></TodayOffer>
             <Dessert></Dessert>
             <Pizza></Pizza>
+            <Salad></Salad>
+            
         </div>
     );
 };
