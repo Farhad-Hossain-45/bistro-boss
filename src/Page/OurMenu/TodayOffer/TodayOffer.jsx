@@ -3,7 +3,7 @@ import useMenu from "../../../hooks/useMenu";
 import Cover from "../../Home/Share/Cover/Cover";
 import OfferItem from "./OfferItem/OfferItem";
 import image from "../../../assets/menu/dessert-bg.jpeg"
-import Dessert from "../Dessert/Dessert";
+// import Dessert from "../Dessert/Dessert";
 
 
 const TodayOffer = () => {
@@ -26,7 +26,7 @@ const TodayOffer = () => {
             <div className="mt-10">
             <Cover image={image} title={'DESSERTS'} description={'Lorem Ipsum has been the industry’s standard dummy. '}></Cover>
             </div>
-            <Dessert></Dessert>
+            {/* <Dessert></Dessert> */}
         </div>
     );
 };
