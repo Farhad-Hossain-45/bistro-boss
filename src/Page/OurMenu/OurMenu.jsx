@@ -5,6 +5,7 @@ import TodayOffer from "./TodayOffer/TodayOffer";
 import Dessert from "./Dessert/Dessert";
 import Pizza from "./Pizza/Pizza";
 import Salad from "./Salad/Salad";
+import Soup from "./Soup/Soup";
 
 
 const OurMenu = () => {
@@ -21,6 +22,7 @@ const OurMenu = () => {
             <Dessert></Dessert>
             <Pizza></Pizza>
             <Salad></Salad>
+            <Soup></Soup>
             
         </div>
     );
