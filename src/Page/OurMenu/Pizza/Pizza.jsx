@@ -2,6 +2,7 @@ import Cover from "../../Home/Share/Cover/Cover";
 import pizzaImage from "../../../assets/menu/pizza-bg.jpg"
 import useMenu from "../../../hooks/useMenu";
 import PizzaItem from "./PizzaItem/PizzaItem";
+import { Link } from "react-router-dom";
 
 
 const Pizza = () => {
@@ -19,7 +20,9 @@ const Pizza = () => {
                 }
             </div>
             <div className="flex justify-center mt-6">
-                <button className="btn btn-outline border-0 border-b-4 uppercase">ORDER YOUR FAVOURITE FOOD</button>
+                <Link to={`/ourShop`}>
+                    <button className="btn btn-outline border-0 border-b-4 uppercase">ORDER YOUR FAVOURITE FOOD</button>
+                </Link>
             </div>
         </div>
     );

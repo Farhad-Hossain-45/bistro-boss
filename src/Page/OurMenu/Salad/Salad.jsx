@@ -2,6 +2,7 @@ import Cover from "../../Home/Share/Cover/Cover";
 import saladImage from "../../../assets/menu/salad-bg.jpg"
 import useMenu from "../../../hooks/useMenu";
 import SaladItem from "./SaladItem/SaladItem";
+import { Link } from "react-router-dom";
 
 
 const Salad = () => {
@@ -20,9 +21,9 @@ const Salad = () => {
                     saladSlice.map(item => <SaladItem key={item._id} item={item}></SaladItem>)
                 }
             </div>
-            <div className="flex justify-center mt-6">
+            <Link to='/ourShop'><div className="flex justify-center mt-6">
                 <button className="btn btn-outline border-0 border-b-4 uppercase">ORDER YOUR FAVOURITE FOOD</button>
-            </div>
+            </div></Link>
         </div>
     );
 };

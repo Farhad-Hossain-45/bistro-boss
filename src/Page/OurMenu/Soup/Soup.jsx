@@ -2,6 +2,7 @@ import Cover from "../../Home/Share/Cover/Cover";
 import soupImage from '../../../assets/menu/soup-bg.jpg'
 import useMenu from "../../../hooks/useMenu";
 import SoupItem from "./SoupItem/SoupItem";
+import { Link } from "react-router-dom";
 
 
 
@@ -20,7 +21,7 @@ const Soup = () => {
                 }
             </div>
             <div className="flex justify-center mt-6">
-                <button className="btn btn-outline border-0 border-b-4 uppercase">ORDER YOUR FAVOURITE FOOD</button>
+                <Link to='/ourShop'><button className="btn btn-outline border-0 border-b-4 uppercase">ORDER YOUR FAVOURITE FOOD</button></Link>
             </div>
         </div>
     );
