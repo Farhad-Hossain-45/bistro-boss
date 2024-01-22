@@ -2,7 +2,7 @@ import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import useMenu from "../../../hooks/useMenu";
 import Cover from "../../Home/Share/Cover/Cover";
 import OfferItem from "./OfferItem/OfferItem";
-import image from "../../../assets/menu/dessert-bg.jpeg"
+import image from "../../../assets/menu/dessert-bg.jpeg";
 import { Link } from "react-router-dom";
 // import Dessert from "../Dessert/Dessert";
 
@@ -25,7 +25,7 @@ const TodayOffer = () => {
                 <Link to='/ourShop'><button className="btn btn-outline border-0 border-b-4 uppercase">ORDER YOUR FAVORITE FOOD</button></Link>
             </div>
             <div className="mt-10">
-            <Cover image={image} title={'DESSERTS'} description={'Lorem Ipsum has been the industry’s standard dummy. '}></Cover>
+            <Cover image={image} title={'DESSERTS'} description={'Lorem Ipsum has been the industry’s standard dummy.'}></Cover>
             </div>
             {/* <Dessert></Dessert> */}
         </div>
