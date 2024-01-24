@@ -5,6 +5,7 @@ import Error from "../components/Error/Error";
 import Contact from "../Page/Contact/Contact";
 import OurMenu from "../Page/OurMenu/OurMenu";
 import OurShop from "../Page/OurShop/OurShop";
+import Login from "../Page/Login/Login";
 
 
 const Router = createBrowserRouter([
@@ -28,7 +29,11 @@ const Router = createBrowserRouter([
             {
                 path: '/ourShop',
                 element: <OurShop></OurShop>
-            }
+            },
+            {
+                path: '/login',
+                element: <Login></Login>
+            },
         ]
     }
 ])
