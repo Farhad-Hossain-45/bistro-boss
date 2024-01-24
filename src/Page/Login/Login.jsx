@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import LoginImage from '../../assets/others/authentication2.png'
 import './Login.css'
 
@@ -40,9 +41,11 @@ const Login = () => {
                                 </label>
                             </div>
                             <div className="form-control mt-6">
-                                <button className="btn btn-primary">Login</button>
+                                <button className="btn bg-[#D1A054] text-white">Login</button>
                             </div>
+                            <h1 className='text-center text-[#D1A054] mt-2'>New here? <Link to='/register'><span className='font-semibold text-lg'>Create a New Account</span></Link></h1>
                         </form>
+                        
                     </div>
                 </div>
             </div>
