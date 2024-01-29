@@ -5,6 +5,7 @@ import SectionTitle from "../../components/SectionTitle/SectionTitle";
 import { BiSolidPhoneCall } from "react-icons/bi";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoIosTime } from "react-icons/io";
+import ContactFrom from "./ContactFrom/ContactFrom";
 
 const Contact = () => {
     return (
@@ -56,6 +57,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+            <ContactFrom></ContactFrom>
         </div>
     );
 };
